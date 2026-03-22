@@ -1,0 +1,56 @@
+<div class="bg-[url('/assets/images/mobile/image-hero.jpg')] lg:bg-[url('/assets/images/desktop/image-hero.jpg')] 
+bg-cover bg-no-repeat h-[750px] lg:h-[650px] w-full">
+    <header class="flex justify-between items-center px-8 lg:px-20 py-12">
+        <!-- Logo a la izquierda -->
+        <div class="flex-shrink-0">
+            <img src="/assets/images/logo.svg" alt="logo" class="w-37 sm:w-50" />
+        </div>
+
+        <div class="block sm:hidden">
+            <input type="checkbox" id="menu-toggle" class="hidden peer" />
+
+            <label for="menu-toggle" class="cursor-pointer">
+            <img src="/assets/images/icon-hamburger.svg" alt="menu" class="w-6 h-full" />
+            </label>
+
+            <div class="hidden peer-checked:flex fixed inset-0 bg-black bg-opacity-90 flex-col w-full h-full">
+            <div class="flex justify-between items-center px-8 py-12">
+                <img src="/assets/images/logo.svg" alt="logo" class="w-37" />
+                <label for="menu-toggle" class="cursor-pointer">
+                <img src="/assets/images/icon-close.svg" alt="close" class="w-5 h-full" />
+                </label>
+            </div>
+
+            <nav class="flex flex-col items-left justify-left flex-grow space-y-6 text-white text-2xl ml-8 mt-20">
+                <a href="#" class="font-light">ABOUT</a>
+                <a href="#" class="font-light">CAREERS</a>
+                <a href="#" class="font-light">EVENTS</a>
+                <a href="#" class="font-light">PRODUCTS</a>
+                <a href="#" class="font-light">SUPPORT</a>
+            </nav>
+            </div>
+        </div>
+
+        <!-- Navegación en escritorio -->
+        <nav class="hidden sm:block">
+            <ul class="flex gap-9 text-base opacity-80">
+                <li class="relative cursor-pointer text-white after:absolute after:bottom-[-6px] after:left-1/2 
+                after:-translate-x-1/2 after:block after:h-[2px] after:bg-white after:w-6 after:scale-x-0 hover:after:scale-x-100">About</li>
+                <li class="relative cursor-pointer text-white after:absolute after:bottom-[-6px] after:left-1/2 
+                after:-translate-x-1/2 after:block after:h-[2px] after:bg-white after:w-6 after:scale-x-0 hover:after:scale-x-100">Careers</li>
+                <li class="relative cursor-pointer text-white after:absolute after:bottom-[-6px] after:left-1/2 
+                after:-translate-x-1/2 after:block after:h-[2px] after:bg-white after:w-6 after:scale-x-0 hover:after:scale-x-100">Events</li>
+                <li class="relative cursor-pointer text-white after:absolute after:bottom-[-6px] after:left-1/2 
+                after:-translate-x-1/2 after:block after:h-[2px] after:bg-white after:w-6 after:scale-x-0 hover:after:scale-x-100">Support</li>
+                <li class="relative cursor-pointer text-white after:absolute after:bottom-[-6px] after:left-1/2 
+                after:-translate-x-1/2 after:block after:h-[2px] after:bg-white after:w-6 after:scale-x-0 hover:after:scale-x-100">Products</li>
+            </ul>
+        </nav>
+    </header>
+
+  <div class="border-3 border-white w-80 lg:w-169 justify-center p-7 lg:p-10 lg:ml-43 mt-35 lg:mt-20 mx-auto">
+    <h1 class="text-white text-[37px] lg:text-7xl text-left lg:text-left leading-snug lg:leading-tight">
+      IMMERSIVE EXPERIENCES THAT DELIVER
+    </h1>
+  </div>
+</div>

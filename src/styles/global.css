@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Title";
+  src: url("/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Para";
+  src: url("/assets/fonts/Alata/Alata-Regular.ttf");
+}
+
+* {
+  font-family: "Para";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Title";
+  font-weight: 300;
+}
+
+a {
+  font-family: "Title";
+}

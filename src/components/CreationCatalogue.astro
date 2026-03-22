@@ -1,0 +1,20 @@
+---
+const {image, name} = Astro.props;
+
+---
+
+<div class="relative w-full h-[200px] lg:h-[450px] group overflow-hidden select-none cursor-pointer">
+  <picture>
+    <source srcset={`/assets/images/mobile/image-${name.toLowerCase().replace(/\s+/g, '-')}.jpg`} media="(max-width: 640px)" />
+    <img src={image} alt={name} 
+         class="w-full h-full object-cover group-hover:mix-blend-multiply group-hover:brightness-125" />
+  </picture>
+  <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent sm:bg-gradient-to-t sm:from-black sm:to-transparent"></div>
+  <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-60"></div>
+  <div class="absolute bottom-0 left-0">
+    <h3 class="text-white text-2xl lg:text-3xl lg:w-[160px] w-[160px]
+              ml-7 mb-7 lg:ml-11 lg:mb-8 group-hover:text-black">
+      {name}
+    </h3>
+  </div>
+</div>
