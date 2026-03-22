@@ -18,7 +18,7 @@ Agrega aquí una **captura de pantalla** del resultado final de tu landing page.
 ### 🔗 Enlaces del proyecto
 
 - **Repositorio en GitHub:** [Link del repositorio](https://github.com/ArantzaGHdz/Ejercicio_Loopstudios-Landing-Page)
-- **Sitio desplegado (opcional):** [Link del deploy](https://)
+- **Sitio desplegado (opcional):** [Link del deploy](https://ejercicio-loopstudios-landing-page.vercel.app)
 
 ---
 
